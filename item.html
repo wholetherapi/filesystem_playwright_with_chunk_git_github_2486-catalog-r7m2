@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Item - Northline Workspace Supply</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="brand"><span class="brand-name">Northline Workspace Supply</span><span class="brand-sub">Trade Catalog</span></div>
+  <div class="session-controls">
+    <label for="ship-region">Ship to
+      <select id="ship-region">
+        <option value="central">Central Distribution Center (default)</option>
+        <option value="coastal">Coastal Hub - Zone B</option>
+        <option value="northern">Northern Depot</option>
+      </select>
+    </label>
+    <label for="display-currency">Currency
+      <select id="display-currency">
+        <option value="USD">USD</option>
+        <option value="CAD">CAD</option>
+      </select>
+    </label>
+  </div>
+</header>
+<div id="session-note" class="session-note"></div>
+
+<main class="detail" id="item-detail">
+  <div class="crumbs"><a href="index.html">Trade Catalog</a> / <span id="item-category"></span></div>
+  <h1 id="item-title"></h1>
+  <div id="item-seller" class="seller"></div>
+  <div class="sku-row"><label for="item-id">Item ID</label><input id="item-id" type="text" readonly value=""></div>
+
+  <section id="featured-offer" class="offer-box" data-region="central">
+    <h2 class="offer-heading">Current offer</h2>
+    <div id="offer-body"></div>
+  </section>
+
+  <dl class="spec">
+    <dt>Material</dt><dd id="item-material"></dd>
+    <dt>Colour</dt><dd id="item-colour"></dd>
+    <dt>Lumbar support</dt><dd id="item-lumbar"></dd>
+    <dt>Weight capacity</dt><dd id="item-weight"></dd>
+    <dt>Warranty</dt><dd id="item-warranty"></dd>
+  </dl>
+
+  <section class="price-context">
+    <h2>Price context</h2>
+    <p>List price: <span id="item-list-price" class="strike"></span></p>
+    <p>Typical market range: <span id="item-range"></span></p>
+    <p id="item-other-seller"></p>
+    <p class="fine-print">List price and market range are reference figures, not the current trade offer.</p>
+  </section>
+
+  <section class="description">
+    <h2>Description</h2>
+    <p id="item-description"></p>
+  </section>
+
+  <section class="related">
+    <h2>Related items</h2>
+    <ul id="item-related"></ul>
+  </section>
+
+  <a class="back" href="index.html">&larr; Back to the catalog</a>
+</main>
+
+<footer class="site-footer">Northline Workspace Supply - trade customers only. Delivery destination and display currency apply to this browsing session.</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

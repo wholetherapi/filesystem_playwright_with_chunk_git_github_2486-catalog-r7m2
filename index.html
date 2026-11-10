@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Northline Workspace Supply - Trade Catalog</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="brand"><span class="brand-name">Northline Workspace Supply</span><span class="brand-sub">Trade Catalog</span></div>
+  <div class="session-controls">
+    <label for="ship-region">Ship to
+      <select id="ship-region">
+        <option value="central">Central Distribution Center (default)</option>
+        <option value="coastal">Coastal Hub - Zone B</option>
+        <option value="northern">Northern Depot</option>
+      </select>
+    </label>
+    <label for="display-currency">Currency
+      <select id="display-currency">
+        <option value="USD">USD</option>
+        <option value="CAD">CAD</option>
+      </select>
+    </label>
+  </div>
+</header>
+<div id="session-note" class="session-note"></div>
+
+<section class="hero">
+  <h1>Workspace furniture trade catalog</h1>
+  <p>Contract-grade seating, desks and accessories for our trade accounts. Prices shown include handling for the selected delivery destination.</p>
+</section>
+
+<section class="searchbar">
+  <input id="search-input" type="search" placeholder="Search chairs, desks, lighting, accessories..." aria-label="Search catalog">
+</section>
+
+<section class="chips" id="category-chips">
+  <button class="chip active" data-category="all" type="button">All</button>
+</section>
+
+<main id="catalog-grid" class="grid"></main>
+
+<footer class="site-footer">Northline Workspace Supply - trade customers only. Delivery destination and display currency apply to this browsing session.</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

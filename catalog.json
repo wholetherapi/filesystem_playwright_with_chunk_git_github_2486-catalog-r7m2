@@ -1,0 +1,853 @@
+{
+  "store": "Northline Workspace Supply",
+  "default_region": "central",
+  "regions": {
+    "central": {
+      "label": "Central Distribution Center",
+      "currency": "USD",
+      "rate": 1.0,
+      "symbol": "US$",
+      "default": true
+    },
+    "coastal": {
+      "label": "Coastal Hub - Zone B",
+      "currency": "USD",
+      "rate": 1.0,
+      "symbol": "US$",
+      "default": false
+    },
+    "northern": {
+      "label": "Northern Depot",
+      "currency": "CAD",
+      "rate": 1.36,
+      "symbol": "C$",
+      "default": false
+    }
+  },
+  "currencies": {
+    "USD": {
+      "symbol": "US$",
+      "rate": 1.0
+    },
+    "CAD": {
+      "symbol": "C$",
+      "rate": 1.36
+    }
+  },
+  "items": [
+    {
+      "id": "SKU-AX-101",
+      "title": "Vantage Ergonomic Mesh Task Chair",
+      "seller": "Northline Direct",
+      "category": "Ergonomic Office Chair",
+      "material": "Woven mesh back / steel frame",
+      "colour": "Graphite",
+      "lumbar_support": true,
+      "lumbar_note": "Adjustable lumbar support",
+      "weight_capacity_lb": 300,
+      "warranty": "5 years",
+      "description": "A mid-back ergonomic mesh chair with adjustable lumbar support, seat-depth slider and four-dimensional armrests. Designed for full-day seated work in shared offices.",
+      "list_price_usd": 559.0,
+      "market_range_usd": [
+        470.0,
+        560.0
+      ],
+      "other_seller": {
+        "name": "Harborview Traders",
+        "price_usd": 512.0
+      },
+      "related": [
+        {
+          "id": "SKU-AX-305",
+          "title": "Linea Single Monitor Arm",
+          "price_usd": 129.0
+        },
+        {
+          "id": "SKU-AX-301",
+          "title": "Kestrel Height-Adjustable Desk",
+          "price_usd": 529.0
+        }
+      ],
+      "offers": {
+        "central": {
+          "price_usd": 429.0,
+          "stock": "In stock"
+        },
+        "coastal": {
+          "price_usd": 402.0,
+          "stock": "In stock"
+        }
+      }
+    },
+    {
+      "id": "SKU-AX-114",
+      "title": "Corvana Lumbar Task Chair",
+      "seller": "Meridian Workspace",
+      "category": "Ergonomic Office Chair",
+      "material": "Mesh back / molded foam seat",
+      "colour": "Slate",
+      "lumbar_support": true,
+      "lumbar_note": "Adjustable lumbar support",
+      "weight_capacity_lb": 275,
+      "warranty": "7 years",
+      "description": "Corvana pairs a breathable mesh back with an adjustable lumbar pad that slides through three positions. Tilt tension and seat height are tuned with a single paddle.",
+      "list_price_usd": 489.0,
+      "market_range_usd": [
+        410.0,
+        500.0
+      ],
+      "other_seller": {
+        "name": "Stonewick Outfitters",
+        "price_usd": 455.0
+      },
+      "related": [
+        {
+          "id": "SKU-AX-309",
+          "title": "Halo Desk Lamp",
+          "price_usd": 89.0
+        },
+        {
+          "id": "SKU-AX-301",
+          "title": "Kestrel Height-Adjustable Desk",
+          "price_usd": 529.0
+        }
+      ],
+      "offers": {
+        "central": {
+          "price_usd": 389.5,
+          "stock": "In stock"
+        },
+        "coastal": {
+          "price_usd": 371.0,
+          "stock": "In stock"
+        }
+      }
+    },
+    {
+      "id": "SKU-AX-135",
+      "title": "Nimbus Adjustable Lumbar Chair",
+      "seller": "Northline Direct",
+      "category": "Ergonomic Office Chair",
+      "material": "Laminated mesh / nylon frame",
+      "colour": "Midnight",
+      "lumbar_support": true,
+      "lumbar_note": "2-way adjustable lumbar support",
+      "weight_capacity_lb": 310,
+      "warranty": "6 years",
+      "description": "A high-back task chair with a two-way adjustable lumbar panel and a synchronous tilt mechanism. Suited to taller users and longer sessions.",
+      "list_price_usd": 529.0,
+      "market_range_usd": [
+        455.0,
+        545.0
+      ],
+      "other_seller": {
+        "name": "Westgate Commercial",
+        "price_usd": 489.0
+      },
+      "related": [
+        {
+          "id": "SKU-AX-305",
+          "title": "Linea Single Monitor Arm",
+          "price_usd": 129.0
+        }
+      ],
+      "offers": {
+        "central": {
+          "price_usd": 445.0,
+          "stock": "In stock"
+        },
+        "coastal": {
+          "price_usd": 419.0,
+          "stock": "In stock"
+        }
+      }
+    },
+    {
+      "id": "SKU-AX-142",
+      "title": "Orbit Mid-Back Ergonomic Chair",
+      "seller": "Copperline Office",
+      "category": "Ergonomic Office Chair",
+      "material": "Mesh back / fabric seat",
+      "colour": "Pearl",
+      "lumbar_support": true,
+      "lumbar_note": "Built-in lumbar curve",
+      "weight_capacity_lb": 250,
+      "warranty": "5 years",
+      "description": "Orbit is a compact mid-back ergonomic chair with a built-in lumbar curve, adjustable seat height and flip-up armrests for hot-desking.",
+      "list_price_usd": 419.0,
+      "market_range_usd": [
+        350.0,
+        435.0
+      ],
+      "other_seller": {
+        "name": "Harborview Traders",
+        "price_usd": 368.0
+      },
+      "related": [
+        {
+          "id": "SKU-AX-309",
+          "title": "Halo Desk Lamp",
+          "price_usd": 89.0
+        }
+      ],
+      "offers": {
+        "central": {
+          "price_usd": 329.0,
+          "stock": "In stock"
+        },
+        "coastal": {
+          "price_usd": 305.0,
+          "stock": "In stock"
+        }
+      }
+    },
+    {
+      "id": "SKU-AX-156",
+      "title": "Aeris Task Chair with Lumbar Cushion",
+      "seller": "Westgate Commercial",
+      "category": "Ergonomic Office Chair",
+      "material": "Air-knit back / memory-foam seat",
+      "colour": "Black",
+      "lumbar_support": true,
+      "lumbar_note": "Removable lumbar cushion",
+      "weight_capacity_lb": 290,
+      "warranty": "4 years",
+      "description": "Aeris includes a removable lumbar cushion and a synchro-tilt back. The air-knit back keeps contact surfaces ventilated through the day.",
+      "list_price_usd": 569.0,
+      "market_range_usd": [
+        500.0,
+        585.0
+      ],
+      "other_seller": {
+        "name": "Meridian Workspace",
+        "price_usd": 519.0
+      },
+      "related": [
+        {
+          "id": "SKU-AX-305",
+          "title": "Linea Single Monitor Arm",
+          "price_usd": 129.0
+        }
+      ],
+      "offers": {
+        "central": {
+          "price_usd": 449.0,
+          "stock": "In stock"
+        },
+        "coastal": {
+          "price_usd": 429.0,
+          "stock": "In stock"
+        }
+      }
+    },
+    {
+      "id": "SKU-AX-163",
+      "title": "Sable High-Back Ergonomic Chair",
+      "seller": "Northline Direct",
+      "category": "Ergonomic Office Chair",
+      "material": "Mesh back / leatherette seat",
+      "colour": "Espresso",
+      "lumbar_support": true,
+      "lumbar_note": "Adjustable lumbar support",
+      "weight_capacity_lb": 300,
+      "warranty": "6 years",
+      "description": "Sable is a high-back ergonomic chair with an adjustable lumbar bar, height-adjustable headrest and five-point base. Intended for executive offices.",
+      "list_price_usd": 519.0,
+      "market_range_usd": [
+        450.0,
+        535.0
+      ],
+      "other_seller": {
+        "name": "Stonewick Outfitters",
+        "price_usd": 482.0
+      },
+      "related": [
+        {
+          "id": "SKU-AX-309",
+          "title": "Halo Desk Lamp",
+          "price_usd": 89.0
+        }
+      ],
+      "offers": {
+        "central": {
+          "price_usd": 438.0,
+          "stock": "In stock"
+        },
+        "coastal": {
+          "price_usd": 415.0,
+          "stock": "In stock"
+        }
+      }
+    },
+    {
+      "id": "SKU-AX-251",
+      "title": "Crest Ergonomic Chair",
+      "seller": "Copperline Office",
+      "category": "Ergonomic Office Chair",
+      "material": "Knit back / foam seat",
+      "colour": "Fog",
+      "lumbar_support": true,
+      "lumbar_note": "Fixed lumbar support",
+      "weight_capacity_lb": 265,
+      "warranty": "5 years",
+      "description": "Crest offers a fixed lumbar support panel with a breathable knit back and a simple height/tilt adjustment. A dependable general-office chair.",
+      "list_price_usd": 529.0,
+      "market_range_usd": [
+        455.0,
+        540.0
+      ],
+      "other_seller": {
+        "name": "Harborview Traders",
+        "price_usd": 470.0
+      },
+      "related": [
+        {
+          "id": "SKU-AX-301",
+          "title": "Kestrel Height-Adjustable Desk",
+          "price_usd": 529.0
+        }
+      ],
+      "offers": {
+        "central": {
+          "price_usd": 449.0,
+          "stock": "Low stock (3 left)"
+        },
+        "coastal": {
+          "price_usd": 447.0,
+          "stock": "In stock"
+        }
+      }
+    },
+    {
+      "id": "SKU-AX-168",
+      "title": "Relay Ergonomic Chair",
+      "seller": "Meridian Workspace",
+      "category": "Ergonomic Office Chair",
+      "material": "Mesh back / fabric seat",
+      "colour": "Ink",
+      "lumbar_support": true,
+      "lumbar_note": "Adjustable lumbar support",
+      "weight_capacity_lb": 285,
+      "warranty": "5 years",
+      "description": "Relay pairs an adjustable lumbar pad with a weight-activated recline. A solid all-rounder for open-plan teams.",
+      "list_price_usd": 549.0,
+      "market_range_usd": [
+        470.0,
+        565.0
+      ],
+      "other_seller": {
+        "name": "Westgate Commercial",
+        "price_usd": 508.0
+      },
+      "related": [
+        {
+          "id": "SKU-AX-305",
+          "title": "Linea Single Monitor Arm",
+          "price_usd": 129.0
+        }
+      ],
+      "offers": {
+        "central": {
+          "price_usd": 455.0,
+          "stock": "In stock"
+        },
+        "coastal": {
+          "price_usd": 431.0,
+          "stock": "In stock"
+        }
+      }
+    },
+    {
+      "id": "SKU-AX-244",
+      "title": "Mesa Ergonomic Chair",
+      "seller": "Copperline Office",
+      "category": "Ergonomic Office Chair",
+      "material": "Mesh back / foam seat",
+      "colour": "Clay",
+      "lumbar_support": true,
+      "lumbar_note": "Adjustable lumbar support",
+      "weight_capacity_lb": 295,
+      "warranty": "5 years",
+      "description": "Mesa has an adjustable lumbar panel and a deep seat. Popular for shared desks where users rotate through the day.",
+      "list_price_usd": 569.0,
+      "market_range_usd": [
+        490.0,
+        580.0
+      ],
+      "other_seller": {
+        "name": "Harborview Traders",
+        "price_usd": 525.0
+      },
+      "related": [
+        {
+          "id": "SKU-AX-309",
+          "title": "Halo Desk Lamp",
+          "price_usd": 89.0
+        }
+      ],
+      "offers": {
+        "central": {
+          "price_usd": 469.0,
+          "stock": "In stock"
+        },
+        "coastal": {
+          "price_usd": 429.0,
+          "stock": "In stock"
+        }
+      }
+    },
+    {
+      "id": "SKU-AX-173",
+      "title": "Pulse Ergonomic Chair",
+      "seller": "Harborview Traders",
+      "category": "Ergonomic Office Chair",
+      "material": "Fabric back / foam seat",
+      "colour": "Sand",
+      "lumbar_support": false,
+      "lumbar_note": "No lumbar support (fixed flat back)",
+      "weight_capacity_lb": 260,
+      "warranty": "3 years",
+      "description": "Pulse is an entry-level ergonomic chair with a fixed flat back and no lumbar support. Adjustable seat height only.",
+      "list_price_usd": 449.0,
+      "market_range_usd": [
+        360.0,
+        460.0
+      ],
+      "other_seller": {
+        "name": "Stonewick Outfitters",
+        "price_usd": 399.0
+      },
+      "related": [
+        {
+          "id": "SKU-AX-305",
+          "title": "Linea Single Monitor Arm",
+          "price_usd": 129.0
+        }
+      ],
+      "offers": {
+        "central": {
+          "price_usd": 412.0,
+          "stock": "In stock"
+        },
+        "coastal": {
+          "price_usd": 396.0,
+          "stock": "In stock"
+        }
+      }
+    },
+    {
+      "id": "SKU-AX-181",
+      "title": "Tundra Gaming Chair",
+      "seller": "Westgate Commercial",
+      "category": "Gaming Chair",
+      "material": "Leatherette / steel frame",
+      "colour": "Carbon",
+      "lumbar_support": true,
+      "lumbar_note": "Adjustable lumbar pillow",
+      "weight_capacity_lb": 280,
+      "warranty": "2 years",
+      "description": "A racing-style gaming chair with a lumbar pillow and neck cushion. Not certified for contract office use.",
+      "list_price_usd": 439.0,
+      "market_range_usd": [
+        360.0,
+        455.0
+      ],
+      "other_seller": {
+        "name": "Harborview Traders",
+        "price_usd": 389.0
+      },
+      "related": [
+        {
+          "id": "SKU-AX-309",
+          "title": "Halo Desk Lamp",
+          "price_usd": 89.0
+        }
+      ],
+      "offers": {
+        "central": {
+          "price_usd": 399.0,
+          "stock": "In stock"
+        },
+        "coastal": {
+          "price_usd": 379.0,
+          "stock": "In stock"
+        }
+      }
+    },
+    {
+      "id": "SKU-AX-190",
+      "title": "Haven Guest Chair",
+      "seller": "Stonewick Outfitters",
+      "category": "Guest & Side Chair",
+      "material": "Fabric / wooden frame",
+      "colour": "Oatmeal",
+      "lumbar_support": false,
+      "lumbar_note": "No lumbar support",
+      "weight_capacity_lb": 240,
+      "warranty": "3 years",
+      "description": "Haven is a visitor chair for meeting rooms and reception areas. Fixed back, no lumbar support, stackable frame.",
+      "list_price_usd": 219.0,
+      "market_range_usd": [
+        170.0,
+        235.0
+      ],
+      "other_seller": {
+        "name": "Meridian Workspace",
+        "price_usd": 199.0
+      },
+      "related": [
+        {
+          "id": "SKU-AX-309",
+          "title": "Halo Desk Lamp",
+          "price_usd": 89.0
+        }
+      ],
+      "offers": {
+        "central": {
+          "price_usd": 189.0,
+          "stock": "In stock"
+        },
+        "coastal": {
+          "price_usd": 179.0,
+          "stock": "In stock"
+        }
+      }
+    },
+    {
+      "id": "SKU-AX-202",
+      "title": "Cove Ergonomic Chair",
+      "seller": "Meridian Workspace",
+      "category": "Ergonomic Office Chair",
+      "material": "Mesh back / foam seat",
+      "colour": "Sea Glass",
+      "lumbar_support": true,
+      "lumbar_note": "Adjustable lumbar support",
+      "weight_capacity_lb": 280,
+      "warranty": "5 years",
+      "description": "Cove is a coastal-market ergonomic chair with an adjustable lumbar pad and a slim profile for compact desks.",
+      "list_price_usd": 509.0,
+      "market_range_usd": [
+        430.0,
+        520.0
+      ],
+      "other_seller": {
+        "name": "Westgate Commercial",
+        "price_usd": 462.0
+      },
+      "related": [
+        {
+          "id": "SKU-AX-305",
+          "title": "Linea Single Monitor Arm",
+          "price_usd": 129.0
+        }
+      ],
+      "offers": {
+        "central": null,
+        "coastal": {
+          "price_usd": 399.0,
+          "stock": "In stock"
+        }
+      }
+    },
+    {
+      "id": "SKU-AX-214",
+      "title": "Zephyr Mesh Ergonomic Chair",
+      "seller": "Copperline Office",
+      "category": "Ergonomic Office Chair",
+      "material": "Mesh back / mesh seat",
+      "colour": "Mist",
+      "lumbar_support": true,
+      "lumbar_note": "Adjustable lumbar support",
+      "weight_capacity_lb": 270,
+      "warranty": "4 years",
+      "description": "Zephyr is a full-mesh ergonomic chair with an adjustable lumbar bar and a breathable seat. Stocked for the coastal distribution network.",
+      "list_price_usd": 539.0,
+      "market_range_usd": [
+        450.0,
+        555.0
+      ],
+      "other_seller": {
+        "name": "Harborview Traders",
+        "price_usd": 488.0
+      },
+      "related": [
+        {
+          "id": "SKU-AX-309",
+          "title": "Halo Desk Lamp",
+          "price_usd": 89.0
+        }
+      ],
+      "offers": {
+        "central": null,
+        "coastal": {
+          "price_usd": 425.0,
+          "stock": "In stock"
+        }
+      }
+    },
+    {
+      "id": "SKU-AX-226",
+      "title": "Lumen Ergonomic Chair",
+      "seller": "Harborview Traders",
+      "category": "Ergonomic Office Chair",
+      "material": "Knit back / foam seat",
+      "colour": "Chalk",
+      "lumbar_support": true,
+      "lumbar_note": "Adjustable lumbar support",
+      "weight_capacity_lb": 260,
+      "warranty": "4 years",
+      "description": "Lumen offers an adjustable lumbar panel and a light frame. Listed for the coastal trade network; central warehouse does not carry it.",
+      "list_price_usd": 489.0,
+      "market_range_usd": [
+        400.0,
+        500.0
+      ],
+      "other_seller": {
+        "name": "Stonewick Outfitters",
+        "price_usd": 441.0
+      },
+      "related": [
+        {
+          "id": "SKU-AX-305",
+          "title": "Linea Single Monitor Arm",
+          "price_usd": 129.0
+        }
+      ],
+      "offers": {
+        "central": null,
+        "coastal": {
+          "price_usd": 379.0,
+          "stock": "In stock"
+        }
+      }
+    },
+    {
+      "id": "SKU-AX-278",
+      "title": "Fable Ergonomic Chair",
+      "seller": "Stonewick Outfitters",
+      "category": "Ergonomic Office Chair",
+      "material": "Mesh back / foam seat",
+      "colour": "Fern",
+      "lumbar_support": true,
+      "lumbar_note": "Adjustable lumbar support",
+      "weight_capacity_lb": 270,
+      "warranty": "5 years",
+      "description": "Fable is an adjustable-lumbar ergonomic chair. The central warehouse line has been discontinued; remaining units are held for the coastal network.",
+      "list_price_usd": 479.0,
+      "market_range_usd": [
+        390.0,
+        490.0
+      ],
+      "other_seller": {
+        "name": "Meridian Workspace",
+        "price_usd": 432.0
+      },
+      "related": [
+        {
+          "id": "SKU-AX-309",
+          "title": "Halo Desk Lamp",
+          "price_usd": 89.0
+        }
+      ],
+      "offers": {
+        "central": {
+          "price_usd": 359.0,
+          "stock": "Out of stock - discontinued"
+        },
+        "coastal": {
+          "price_usd": 349.0,
+          "stock": "In stock"
+        }
+      }
+    },
+    {
+      "id": "SKU-AX-271",
+      "title": "Ridge Ergonomic Chair",
+      "seller": "Westgate Commercial",
+      "category": "Ergonomic Office Chair",
+      "material": "Mesh back / fabric seat",
+      "colour": "Storm",
+      "lumbar_support": true,
+      "lumbar_note": "Adjustable lumbar support",
+      "weight_capacity_lb": 285,
+      "warranty": "5 years",
+      "description": "Ridge is an ergonomic chair with an adjustable lumbar pad. Currently between production runs and not offered for any destination.",
+      "list_price_usd": 499.0,
+      "market_range_usd": [
+        420.0,
+        510.0
+      ],
+      "other_seller": {
+        "name": "Copperline Office",
+        "price_usd": 455.0
+      },
+      "related": [
+        {
+          "id": "SKU-AX-305",
+          "title": "Linea Single Monitor Arm",
+          "price_usd": 129.0
+        }
+      ],
+      "offers": {
+        "central": null,
+        "coastal": null
+      }
+    },
+    {
+      "id": "SKU-AX-301",
+      "title": "Kestrel Height-Adjustable Desk",
+      "seller": "Northline Direct",
+      "category": "Standing Desk",
+      "material": "Laminate top / steel legs",
+      "colour": "Light Oak",
+      "lumbar_support": false,
+      "lumbar_note": "Not applicable",
+      "weight_capacity_lb": 265,
+      "warranty": "10 years",
+      "description": "Kestrel is a dual-motor height-adjustable desk with four memory presets and a 120 kg load rating.",
+      "list_price_usd": 649.0,
+      "market_range_usd": [
+        560.0,
+        680.0
+      ],
+      "other_seller": {
+        "name": "Westgate Commercial",
+        "price_usd": 599.0
+      },
+      "related": [
+        {
+          "id": "SKU-AX-305",
+          "title": "Linea Single Monitor Arm",
+          "price_usd": 129.0
+        }
+      ],
+      "offers": {
+        "central": {
+          "price_usd": 529.0,
+          "stock": "In stock"
+        },
+        "coastal": {
+          "price_usd": 509.0,
+          "stock": "In stock"
+        }
+      }
+    },
+    {
+      "id": "SKU-AX-305",
+      "title": "Linea Single Monitor Arm",
+      "seller": "Westgate Commercial",
+      "category": "Monitor Arm",
+      "material": "Aluminium",
+      "colour": "Matte Silver",
+      "lumbar_support": false,
+      "lumbar_note": "Not applicable",
+      "weight_capacity_lb": 20,
+      "warranty": "3 years",
+      "description": "Linea is a gas-spring single monitor arm with a quick-release VESA plate and cable management channel.",
+      "list_price_usd": 169.0,
+      "market_range_usd": [
+        120.0,
+        180.0
+      ],
+      "other_seller": {
+        "name": "Harborview Traders",
+        "price_usd": 145.0
+      },
+      "related": [
+        {
+          "id": "SKU-AX-309",
+          "title": "Halo Desk Lamp",
+          "price_usd": 89.0
+        }
+      ],
+      "offers": {
+        "central": {
+          "price_usd": 129.0,
+          "stock": "In stock"
+        },
+        "coastal": {
+          "price_usd": 119.0,
+          "stock": "In stock"
+        }
+      }
+    },
+    {
+      "id": "SKU-AX-309",
+      "title": "Halo Desk Lamp",
+      "seller": "Copperline Office",
+      "category": "Lighting",
+      "material": "Aluminium / polycarbonate",
+      "colour": "Warm White",
+      "lumbar_support": false,
+      "lumbar_note": "Not applicable",
+      "weight_capacity_lb": 5,
+      "warranty": "2 years",
+      "description": "Halo is a dimmable LED desk lamp with a USB-C charging port and a five-step colour-temperature control.",
+      "list_price_usd": 119.0,
+      "market_range_usd": [
+        80.0,
+        125.0
+      ],
+      "other_seller": {
+        "name": "Stonewick Outfitters",
+        "price_usd": 99.0
+      },
+      "related": [
+        {
+          "id": "SKU-AX-305",
+          "title": "Linea Single Monitor Arm",
+          "price_usd": 129.0
+        }
+      ],
+      "offers": {
+        "central": {
+          "price_usd": 89.0,
+          "stock": "In stock"
+        },
+        "coastal": {
+          "price_usd": 84.0,
+          "stock": "In stock"
+        }
+      }
+    },
+    {
+      "id": "SKU-AX-258",
+      "title": "Drift Ergonomic Stool",
+      "seller": "Harborview Traders",
+      "category": "Ergonomic Stool",
+      "material": "Saddle leather / nylon base",
+      "colour": "Charcoal",
+      "lumbar_support": false,
+      "lumbar_note": "No lumbar support",
+      "weight_capacity_lb": 240,
+      "warranty": "4 years",
+      "description": "Drift is a saddle-style ergonomic stool for standing-desk users. No backrest and no lumbar support.",
+      "list_price_usd": 329.0,
+      "market_range_usd": [
+        250.0,
+        340.0
+      ],
+      "other_seller": {
+        "name": "Meridian Workspace",
+        "price_usd": 289.0
+      },
+      "related": [
+        {
+          "id": "SKU-AX-305",
+          "title": "Linea Single Monitor Arm",
+          "price_usd": 129.0
+        }
+      ],
+      "offers": {
+        "central": {
+          "price_usd": 279.0,
+          "stock": "In stock"
+        },
+        "coastal": {
+          "price_usd": 265.0,
+          "stock": "In stock"
+        }
+      }
+    }
+  ]
+}
